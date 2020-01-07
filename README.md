@@ -1,2 +1,2 @@
-echo "# Styling"
-echo " TO LEARN CSS"
+"Styling"
+" TO LEARN CSS"

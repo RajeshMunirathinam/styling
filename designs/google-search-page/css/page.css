@@ -1,0 +1,51 @@
+.user-logo {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.user-logo img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin: 15px 29px 0 0;
+} 
+
+.user-logo img:hover {
+    box-shadow: 0.2px 0.2px 5px #aaaaaa;
+}
+
+.container-1 {
+    flex: 1;
+    text-align: right;
+}
+
+.container-1 div {
+    position: absolute;
+    top: 17px;
+    right: 105px;
+}
+
+.container-1 div a {
+    height: 24px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    margin: 14px 15px 0 0;
+}
+
+.container-1 div a:hover {
+    text-decoration: underline;
+}
+
+.container-1 i {
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    right: 75px;
+}
+
+.container-1 i:hover {
+    color: #000;
+}

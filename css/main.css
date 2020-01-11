@@ -1,0 +1,25 @@
+/* Defaults */
+
+body {
+    margin: 0;
+}
+
+/* Flex Default Class */
+
+.flex-container {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+/* Colors */
+
+.text-gray {
+    color: #888;
+}

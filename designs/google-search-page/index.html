@@ -12,7 +12,8 @@
     <link href="../../css/main.css" rel="stylesheet">
 </head>
 <body>
-    <div class="flex-container flex-column">
+    <div class="total flex-container flex-column">
+        <!-- Header -->
         <div class="container-1">
             <div>
                 <a href="">Gmail</a>
@@ -23,18 +24,29 @@
                 <img src="https://media.gettyimages.com/photos/actor-arnold-schwarzenegger-arrives-at-lionsgate-films-the-2-on-15-picture-id150326910?s=2048x2048">
             </span>
         </div>
-        <div>
+        <!-- Search -->
+        <div class="container-2">
             <img src="asserts/google-logo.png">
-            <div>
-                <input type="text" id="searchInput">
+            <div class="search-box">
+                <div class="search-icon-bar">
+                    <span class="search-icon">
+                        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                    </span>
+                </div>
+                <div class="search-feild">
+                    <input type="text" id="searchInput" >
+                </div>
+                <div class="voice-bar">
+                    <span class="voice-icon">
+                    </span>
+                </div>
             </div>
-            <div>
+            <div class="btn-container ">
                 <button type="button" id="googleSearchBtn" >Google Search</button>
                 <button type="button" id="LuckyBtn" >I'm Feeling Lucky</button>
             </div>
-            <div>
-                <p>Google offered in:
-                    <span>
+            <div class="language-list">
+                    Google offered in:
                         <a href="">हिन्दी</a>
                         <a href="">বাংলা</a>
                         <a href="">తెలుగు</a>
@@ -44,25 +56,27 @@
                         <a href="">ಕನ್ನಡ</a>
                         <a href="">മലയാളം</a>
                         <a href="">ਪੰਜਾਬੀ</a>
-                    </span>
-                </p>
             </div>
         </div>
-        <div>
-            <div>
-                <p>India</p>
+        <!-- Footer -->
+        <div class="container-3">
+            <div class="footer-head">
+                India
             </div>
-            <div>
-                <span>
+            <div id="footerBody">
+                <span class="left-span">
                     <a href="">Advertising</a>
                     <a href="">Business</a>
                     <a href="">About</a>
                     <a href="">How Search works</a>
+                </span>
+                <span class="right-span">
                     <a href="">Privacy</a>
                     <a href="">Terms</a>
                     <a href="">Setting</a>
                 </span>
             </div>
+
         </div>
     </div>
 </body>

@@ -6,6 +6,10 @@ body {
 
 /* Flex Default Class */
 
+.total {
+    height: 100vh;
+}
+
 .flex-container {
     display: flex;
 }
@@ -22,4 +26,10 @@ body {
 
 .text-gray {
     color: #888;
+}
+
+/* Margins */
+
+.m-b-12 {
+    margin-bottom: 12px;
 }

@@ -1,3 +1,8 @@
+
+body {
+    font-family: arial,sans-serif;
+}
+
 .user-logo {
     height: 32px;
     width: 32px;
@@ -16,7 +21,7 @@
 }
 
 .container-1 {
-    flex: 1;
+    flex: 0.5;
     text-align: right;
 }
 
@@ -28,7 +33,6 @@
 
 .container-1 div a {
     height: 24px;
-    font-family: arial,sans-serif;
     font-size: 13px;
     color: rgba(0,0,0,0.87);
     text-decoration: none;
@@ -48,4 +52,190 @@
 
 .container-1 i:hover {
     color: #000;
+}
+
+.container-2 {
+    flex: 8;
+    text-align: center;
+}
+
+.container-2 img {
+    max-width: 272px;
+    padding-top: 109px;
+}
+
+.search-box {
+    width: 584px;
+    height: 44px;
+    margin: 24px auto 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsla(220, 10%, 89%, 0);
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+}
+
+.search-box:hover {
+    box-shadow: hsla(225, 6%, 13%, 0.28) 0px 1px 6px 0px;
+}
+
+.search-box:focus {
+    box-shadow: hsla(225, 6%, 13%, 0.28) 0px 1px 6px 0px;
+}
+
+.search-icon-bar {
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 13px;
+    margin-top: -4px;
+}
+
+.search-icon {
+    margin-top: 3px;
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    fill: currentColor;
+}
+
+.search-feild {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.search-feild input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin: auto;
+    height: 34px;
+    font-size: 16px;
+}
+
+.voice-bar {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    margin-right: 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.voice-icon {
+    background-image: url('http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+}
+
+.btn-container {
+    margin: 0 auto;
+    width: 571px;
+    height: 51px;
+    padding: 18px 0 0;
+}
+
+.btn-container button {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+}
+
+.btn-container button:hover {
+    border: 1px solid #bbbaba;
+    color: rgb(68, 69, 70);
+}
+
+.language-list {
+    margin-top: 22px;
+    display: inline-block;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
+.language-list a {
+    padding: 0 3px;
+    text-decoration: none;
+}
+
+.language-list a:visited {
+    color: #609;
+}
+
+.language-list a:hover {
+    text-decoration: underline;
+}
+
+.container-3 {
+    flex: 1;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    font-size: 13px;
+    color: rgba(0,0,0,.54);
+}
+
+.footer-head {
+    font-size: 15px;
+    margin-left: 27px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.left-span {
+    margin-left: 3px;
+}
+
+.right-span {
+    float: right;
+    margin-right: 30px;
+}
+
+#footerBody span a {
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+    white-space: nowrap;
+    padding-left: 27px;
+    margin: 0 !important;
+}
+
+#footerBody span a:hover {
+    text-decoration: underline;
+}
+
+#footerBody span a:active {
+    color: rgb(231, 49, 49);
 }

@@ -77,11 +77,7 @@ body {
     display: flex;
 }
 
-.search-box:hover {
-    box-shadow: hsla(225, 6%, 13%, 0.28) 0px 1px 6px 0px;
-}
-
-.search-box:focus {
+.search-box:hover, .search-box:focus-within {
     box-shadow: hsla(225, 6%, 13%, 0.28) 0px 1px 6px 0px;
 }
 
@@ -175,6 +171,11 @@ body {
     color: rgb(68, 69, 70);
 }
 
+.btn-container button:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
 .language-list {
     margin-top: 22px;
     display: inline-block;
@@ -184,6 +185,7 @@ body {
 
 .language-list a {
     padding: 0 3px;
+    color: #1a0dab;
     text-decoration: none;
 }
 
